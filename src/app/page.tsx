@@ -3,13 +3,14 @@ import Image from "next/image";
 export default function Home() {
   return (
     <div className="flex items-center justify-center h-screen w-screen fixed bg-[#f2f7f5]">
-      <div className="absolute -bottom-32 left-[-60px] w-[400px] h-[400px] bg-gradient-to-br from-yellow-400 to-orange-300 rounded-full opacity-60 hidden lg:block" />
+      <div className="absolute -bottom-40 left-[-71px] w-[400px] h-[400px] bg-gradient-to-br from-yellow-400 to-orange-300 rounded-full opacity-60 hidden lg:block" />
 
       {/* Main Container */}
       <div className="relative flex flex-col md:flex-row w-full max-w-7xl h-auto md:h-[90vh] bg-white md:rounded-lg overflow-hidden shadow-lg z-50">
         
         {/* Left container */}
         <div className="relative w-full md:w-1/2 bg-[#06a67ee2] bg-opacity-0 text-white p-10 flex flex-col items-center justify-center">
+        <div className="absolute bottom-0 left-0  w-[400px] h-[400px] bg-[#FFFFFF33] opacity-60 hidden lg:block" style={{ clipPath: 'circle(50% at 0% 100%)' }} />
           <h2 className="text-4xl font-bold mb-4 text-center">Welcome Back!</h2>
           <p className="text-center text-xl mb-12 w-[80%] md:w-[70%]">To keep connected with us please login with your personal info</p>
           <button className="w-[50%] py-4 border border-white rounded-full hover:bg-white hover:text-black transition">
