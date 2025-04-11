@@ -6,7 +6,7 @@ export default function Home() {
       <div className="absolute -bottom-32 left-[-60px] w-[400px] h-[400px] bg-gradient-to-br from-yellow-400 to-orange-300 rounded-full opacity-60 hidden lg:block" />
 
       {/* Main Container */}
-      <div className="relative flex flex-col md:flex-row w-full max-w-7xl h-auto md:h-[90vh] bg-white rounded-lg overflow-hidden shadow-lg z-50">
+      <div className="relative flex flex-col md:flex-row w-full max-w-7xl h-auto md:h-[90vh] bg-white md:rounded-lg overflow-hidden shadow-lg z-50">
         
         {/* Left container */}
         <div className="relative w-full md:w-1/2 bg-[#06a67ee2] bg-opacity-0 text-white p-10 flex flex-col items-center justify-center">
@@ -34,7 +34,7 @@ export default function Home() {
           <h2 className=" text-4xl lg:text-5xl font-bold text-[#06a67ee2] mb-10 text-center">Create Account</h2>
 
           {/* Social icons*/}
-          <div className="flex space-x-4 mb-16">
+          <div className="flex space-x-4 lg:mb-16 mb-10">
             <div className="w-10 h-8 rounded-full flex items-center justify-center">
               <Image src={"/images/twitter.svg"} alt="twitter" height={50} width={50} />
             </div>
