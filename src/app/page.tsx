@@ -2,12 +2,13 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <div className="flex items-center justify-center lg:h-screen w-screen lg:fixed bg-[#f2f7f5]">
-      <div className="absolute -bottom-40 left-[-71px] w-[400px] h-[400px] bg-gradient-to-br from-yellow-400 to-orange-300 rounded-full opacity-60 hidden lg:block" />
+    <div className="flex items-center justify-center md:h-screen w-screen lg:fixed bg-[#f2f7f5]">
+    <div className="relative -bottom-32 left-[-200px]">
+      <div className="absolute  w-[400px] h-[400px] bg-gradient-to-br from-yellow-400 to-orange-300 rounded-full opacity-60 hidden lg:block" />
+    </div>
 
       {/* Main Container */}
-      <div className="relative flex flex-col md:flex-row w-full max-w-7xl h-auto md:h-[90vh] bg-white md:rounded-lg overflow-hidden shadow-lg z-40">
-        
+      <div className="relative flex flex-col md:flex-row w-full max-w-7xl h-auto md:h-[90vh] bg-white md:rounded-lg overflow-hidden shadow-lg z-40"> 
         {/* Left container */}
         <div className="relative w-full md:w-1/2 bg-[#06a67ee2] bg-opacity-0 text-white p-10 flex flex-col items-center justify-center">
         <div className="absolute bottom-0 left-0  w-[400px] h-[400px] bg-[#FFFFFF33] opacity-60 hidden lg:block" style={{ clipPath: 'circle(50% at 0% 100%)' }} />
