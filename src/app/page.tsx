@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function Home() {
   return (
     <div className="flex items-center justify-center md:h-screen w-screen md:fixed bg-[#f2f7f5]">
-        <div className="absolute -bottom-32 left-[-150px] w-[450px] h-[450px] rounded-full bg-yellow-300 z-40 hidden lg:block pointer-events-none" />
+        <div className="absolute -bottom-32 left-[-150px] w-[450px] h-[450px] rounded-full bg-gradient-to-r from-[#FFBB00] to-[#FFD56191] z-40 hidden lg:block pointer-events-none" />
 
         {/* Red overlay that only shows when overlapping (using blend mode) */}
         <div className="absolute -bottom-32 left-[-150px] w-[450px] h-[450px] rounded-full bg-[#FFFFFF33] z-50 opacity-80 hidden lg:block pointer-events-none" />
@@ -103,7 +103,7 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="absolute top-[-70px] right-[-200px] w-[600px] h-[600px] bg-red-400 z-10 -rotate-12 hidden lg:block"
+      <div className="absolute top-[-70px] right-[-300px] w-[600px] h-[600px] bg-red-400 z-10 -rotate-12 hidden lg:block"
           style={{clipPath: 'polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%)',}}/>
     </div>
   );
