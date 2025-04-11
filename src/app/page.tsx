@@ -3,13 +3,12 @@ import Image from "next/image";
 export default function Home() {
   return (
     <div className="flex items-center justify-center h-screen w-screen fixed bg-[#f2f7f5]">
-      {/* Background Gradient Circle */}
       <div className="absolute -bottom-32 left-[-60px] w-[400px] h-[400px] bg-gradient-to-br from-yellow-400 to-orange-300 rounded-full opacity-60 hidden lg:block" />
 
       {/* Main Container */}
       <div className="relative flex flex-col md:flex-row w-full max-w-7xl h-auto md:h-[90vh] bg-white rounded-lg overflow-hidden shadow-lg z-50">
         
-        {/* Left Panel */}
+        {/* Left container */}
         <div className="relative w-full md:w-1/2 bg-[#06a67ee2] bg-opacity-0 text-white p-10 flex flex-col items-center justify-center">
           <h2 className="text-4xl font-bold mb-4 text-center">Welcome Back!</h2>
           <p className="text-center text-xl mb-12 w-[80%] md:w-[70%]">To keep connected with us please login with your personal info</p>
@@ -17,7 +16,7 @@ export default function Home() {
             SIGN IN
           </button>
 
-          {/* Decorative Shapes */}
+          {/*Shapes */}
           <div className="absolute top-16 right-40 w-16 h-16 bg-[#FFFFFF33] rotate-45 opacity-80" />
           <div className="absolute top-40 -right-14 w-28 h-28 bg-[#FFFFFF33] rounded-full opacity-80" />
           <div
@@ -30,11 +29,11 @@ export default function Home() {
           />
         </div>
 
-        {/* Right Panel */}
+        {/* Right container */}
         <div className="w-full md:w-1/2 p-10 flex flex-col justify-center items-center z-20">
           <h2 className=" text-4xl lg:text-5xl font-bold text-[#06a67ee2] mb-10 text-center">Create Account</h2>
 
-          {/* Social icons (placeholder circles) */}
+          {/* Social icons*/}
           <div className="flex space-x-4 mb-16">
             <div className="w-10 h-8 rounded-full flex items-center justify-center">
               <Image src={"/images/twitter.svg"} alt="twitter" height={50} width={50} />
@@ -102,8 +101,7 @@ export default function Home() {
           </form>
         </div>
       </div>
-              {/* Top-right triangle decoration */}
-              <div
+      <div
           className="absolute top-[-70px] right-[-200px] w-[600px] h-[600px] bg-red-400 z-10 -rotate-12 hidden lg:block"
           style={{
             clipPath: 'polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%)',
