@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <div className="flex items-center justify-center md:h-screen w-screen lg:fixed bg-[#f2f7f5]">
+    <div className="flex items-center justify-center md:h-screen w-screen md:fixed bg-[#f2f7f5]">
     <div className="relative -bottom-32 left-[-200px]">
       <div className="absolute  w-[400px] h-[400px] bg-gradient-to-br from-yellow-400 to-orange-300 rounded-full opacity-60 hidden lg:block" />
     </div>
