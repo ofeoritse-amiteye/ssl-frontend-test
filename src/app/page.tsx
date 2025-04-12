@@ -5,7 +5,6 @@ export default function Home() {
     <div className="flex items-center justify-center md:h-screen w-screen md:fixed bg-[#f2f7f5]">
         <div className="absolute -bottom-32 left-[-150px] w-[450px] h-[450px] rounded-full bg-gradient-to-r from-[#FFBB00] to-[#FFD56191] z-40 hidden lg:block pointer-events-none" />
 
-        {/* Red overlay that only shows when overlapping (using blend mode) */}
         <div className="absolute -bottom-32 left-[-150px] w-[450px] h-[450px] rounded-full bg-[#FFFFFF33] z-50 opacity-80 hidden lg:block pointer-events-none" />
         {/* Main Container */}
         <div className="relative flex flex-col md:flex-row w-full lg:w-[90%] h-auto md:h-[80vh] bg-white md:rounded-lg overflow-hidden shadow-lg z-40"> 
